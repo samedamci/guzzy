@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "guzzy"
-version = "0.1.0"
+version = "0.1.1"
 description = "Interactive CLI git client inside fzf."
 authors = ["samedamci <samedamci@disroot.org>"]
 license = "ISC"
@@ -23,7 +23,7 @@ include = ["LICENSE"]
 python = "^3.6"
 
 [tool.poetry.scripts]
-guzzy = "guzzy:__main__"
+guzzy = "guzzy:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
