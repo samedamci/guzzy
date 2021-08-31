@@ -4,7 +4,6 @@
 
 commit="git --no-pager show -q $commit_hash"
 limiter="-------------------------------------------------"
-
 file_content="git show $commit_hash:{}"
 
 git ls-tree -r --name-only "$commit_hash" |
