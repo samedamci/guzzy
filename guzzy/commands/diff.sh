@@ -1,4 +1,3 @@
 #!/bin/sh
 
-git status | awk '/modified/ { print $2 }' | fzf --preview \
-	'git diff --color=always {}'
+git ls-files --modified | fzf --preview 'git diff --color=always {}'
