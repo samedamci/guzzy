@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# help: list all files in specified commit/tag/branch with preview
+
 [ "$1" ] && commit_hash="$1" || commit_hash="HEAD"
 
 commit="git --no-pager log --color=always -n 1 $commit_hash"

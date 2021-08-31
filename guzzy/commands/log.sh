@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# help: list all commits with diff for changes fot each one
+
 CWD="$(dirname "$(readlink -f "$0")")"
 
 show_diff="git log --color=always -n 1 {1}; seq -s_ 150|tr -d '[:digit:]' && \
