@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "guzzy"
-version = "0.1.4"
+version = "0.1.5"
 description = "Interactive CLI git client inside fzf."
 authors = ["samedamci <samedamci@disroot.org>"]
 license = "ISC"
