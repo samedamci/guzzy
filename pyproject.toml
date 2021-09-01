@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.9.2"
 
 [tool.poetry.scripts]
 guzzy = "guzzy:main"
