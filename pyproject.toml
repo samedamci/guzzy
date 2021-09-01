@@ -20,6 +20,10 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.9.2"
+pysheller = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.8b0"
 
 [tool.poetry.scripts]
 guzzy = "guzzy:main"
