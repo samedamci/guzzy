@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# help: list all commits with diff for changes fot each one
+# help : list all commits with diff for changes fot each one
 
 CWD="$(dirname "$(readlink -f "$0")")"
 
